@@ -32,7 +32,7 @@ function loadRandomQuote() {
     });
 }
 
-websiteTitle = "Hello there!           ‎";
+websiteTitle = "Hello there!                ‎";
 position = 0;
 function scrollTitle() {
     document.title = websiteTitle.substring(position, websiteTitle.length) + websiteTitle.substring(0, position); 
@@ -68,13 +68,6 @@ async function documentClicked() {
         $('#loader').fadeOut(fadeOutDuration)
         $('.loader-info').fadeOut(fadeOutDuration)
         $('#loader-wrapper').addClass('loaded');
-
-        // Audio
-        // get audio element
-        var audio = document.getElementById("audio-player");
-        console.log(audio);
-        audio.volume = 1;
-        
     }, 100);
 }
 
