@@ -42,7 +42,7 @@ function scrollTitle() {
 }
 
 const socials = {
-    'discord': 'https://discord.gg/JbyPAyHJHS',
+    'discord': 'https://discord.gg/FMbn3EPM',
     'github': 'https://github.com/Ted6828',
     'feather': 'https://feathermc.com',
     'youtube': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
